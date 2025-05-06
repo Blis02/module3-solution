@@ -24,3 +24,10 @@ body {
       padding-right: 5px;
     }
   }
+
+  footer {
+    background-color: #f8f9fa;
+    color: grey;
+    padding: 20px 0;
+    text-align: center;
+  }
