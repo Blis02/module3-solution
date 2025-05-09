@@ -1,33 +1,43 @@
+/* General Styles */
 body {
-    background-color: #f8f9fa;
-  }
-  
-  .navbar {
-    min-height: 70px;
-  }
-  
-  .card {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border: none;
-    border-radius: 0;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-  }
-  
-  .card-title {
-    font-size: 1.5rem;
-  }
-  
-  @media (max-width: 767.98px) {
-    .container {
-      padding-left: 5px;
-      padding-right: 5px;
-    }
-  }
+  font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+}
 
-  footer {
+/* Navbar */
+.navbar {
+  background-color: #ddd; /* Matches the grey color */
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+/* Page Title */
+.menu-title {
+  margin: 30px 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Content Section */
+.content-box {
+  background-color: #999; /* Dark grey box */
+  color: #fff; /* White text */
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.section-text {
+  font-size: 14px;
+  text-align: justify;
+}
+
+footer {
     background-color: #f8f9fa;
     color: grey;
     padding: 20px 0;
     text-align: center;
-  }
+}
